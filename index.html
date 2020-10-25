@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"  href="estilo.css">
+    <script src="script.js" type="text/javascript" defer></script>
+    <title>Docket</title>
+</head>
+<body>
+    <header class="logo-fundo"><img src="img/logo.svg"/></header>
+    <section class="form-section">
+        <form>
+            <fieldset>
+                <h1>Venha trabalhar na Docket</h1>
+                <p>Preencha o formulário abaixo e venha trabalhar em uma das startups mais desejadas do Brasil!</p>
+                <label>Dados pessoais</label>
+                <label class="campos">
+                    <label class="asterisco">*</label>
+                    <label class="campoName">Nome completo:</label>
+                </label>
+                <input placeholder="Nome completo" type="text" maxlength="37" id="name"></input>
+                <small class="esconderAviso">Campo obrigatório</small>
+                
+                <label class="campos">
+                    <label class="asterisco">*</label>
+                    <label class="campoName">E-mail:</label>
+                </label>
+                <input placeholder="emailvalido@meuemail" type="mail" maxlength="37" id="mail"></input>
+                <small class="esconderAviso">Campo obrigatório</small>
+                <label class="campos">
+                    <label class="asterisco">*</label>
+                    <label class="campoName">Telefone 1:</label>
+                </label>
+                <input placeholder="(00)9000-0000" type="tel" maxlength="15" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}"  id="phone"></input>
+                <small class="esconderAviso">Campo obrigatório</small>
+           
+                <label class="campos">
+                    <label class="campoName tel2">Telefone 2:</label>
+                </label>
+                <input placeholder="(00)000-0000" type="tel" maxlength="37" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" id="phone2"></input>
+                <small id="textSmall" class="esconderAviso">Campo não obrigatório</small>
+            
+                <button type="button" id="btn" class="enviar">Enviar</button>
+            </fieldset>
+        </form>
+    </section>
+    <section class="data-form">
+        <div class="exibir-data">
+            <h3>Ficha do candidato</h3>
+            <div class="campos">
+                <div class="campoName">Nome completo:</div>
+                <div class="dataName" id="recebeName">Nome do usuario</div>
+            </div>
+            <div class="campos2">
+                <div class="campoName">E-mail:</div>
+                <div class="dataMail" id="recebeMail">email do usuario</div>
+            </div>
+            <div class="campos2">
+                <div class="campoName" >telefone 1:</div>
+                <div class="dataMail" id="recebePhone">telefone do usuario</div>
+            </div>
+            <div class="campos2">
+                <div class="campoName">telefone 2:</div>
+                <div class="dataMail" id="nodata">telefone do usuario</div>
+            </div>
+            <div class="campos2">
+                <div id="projetos">Seus projetos:</div>
+                
+            </div>
+            <div class="nextImage" >
+                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 512.002 512.002" style="enable-background:new 0 0 512.002 512.002;" xml:space="preserve">
+                                <g>
+                                    <g>
+                                        <path d="M388.425,241.951L151.609,5.79c-7.759-7.733-20.321-7.72-28.067,0.04c-7.74,7.759-7.72,20.328,0.04,28.067l222.72,222.105
+                                            L123.574,478.106c-7.759,7.74-7.779,20.301-0.04,28.061c3.883,3.89,8.97,5.835,14.057,5.835c5.074,0,10.141-1.932,14.017-5.795
+                                            l236.817-236.155c3.737-3.718,5.834-8.778,5.834-14.05S392.156,245.676,388.425,241.951z"/>
+                                    </g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                    </svg>
+
+
+            </div>
+
+            <div class="previewImage">
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 443.52 443.52" style="enable-background:new 0 0 443.52 443.52;" xml:space="preserve">
+                    <g>
+                        <g>
+                            <path d="M143.492,221.863L336.226,29.129c6.663-6.664,6.663-17.468,0-24.132c-6.665-6.662-17.468-6.662-24.132,0l-204.8,204.8
+                                c-6.662,6.664-6.662,17.468,0,24.132l204.8,204.8c6.78,6.548,17.584,6.36,24.132-0.42c6.387-6.614,6.387-17.099,0-23.712
+                                L143.492,221.863z"/>
+                        </g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    </svg>
+
+
+            </div>
+            <div id="carousel"> </div>
+
+        </div>
+    </section>
+
+    <footer>DOCKET © 2019</footer>
+    
+    
+</body>
+</html>
